@@ -1,5 +1,5 @@
 # importar la clase persona y crear una nueva persona #
-from person import Person
+from api.person import Person
 # crear una nueva persona
 persona = Person(0,"Juan", 20, "M", 70, 1.75)
 # mostrar los datos de la persona

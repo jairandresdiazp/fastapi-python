@@ -1,7 +1,7 @@
 {
   "scripts": {
     "init": "pip install -r requirements.txt",
-    "start": "uvicorn main:app",
-    "dev": "uvicorn main:app --reload"
+    "start": "uvicorn main:app --env-file .env --port 8000",
+    "dev": "uvicorn main:app --reload --env-file .env --port 8000"
   }
 }
